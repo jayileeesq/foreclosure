@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>California Foreclosure Help</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>California Foreclosure Help</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#resources">Resources</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Us</h2>
+      <p>We provide guidance and resources for individuals navigating foreclosure in California. Our mission is to empower homeowners and offer tailored solutions.</p>
+    </section>
+
+    <section id="resources">
+      <h2>Resources</h2>
+      <ul>
+        <li><a href="https://www.hcd.ca.gov" target="_blank">California Housing and Community Development</a></li>
+        <li><a href="https://www.hud.gov" target="_blank">HUD Foreclosure Resources</a></li>
+        <li><a href="#custom-guides">Custom Guides</a></li>
+      </ul>
+    </section>
+
+    <section id="custom-guides">
+      <h3>Custom Guides</h3>
+      <form>
+        <label for="goal">What is your goal?</label>
+        <select id="goal">
+          <option value="prevent">Prevent Foreclosure</option>
+          <option value="bid">Bid on a Foreclosed Property</option>
+          <option value="understand">Understand SB 1079</option>
+        </select>
+        <button type="submit">Get Started</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 California Foreclosure Help.
